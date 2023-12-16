@@ -1,6 +1,6 @@
 #include <iostream>
 
-// Function to calculate the summation of two numbers
+// Function to calculate the difference of two numbers
 double difference(double a, double b) {
     return a - b;
 }
@@ -18,7 +18,7 @@ int main() {
     std::cin >> num2;
 
     // Perform operations and print results
-    std::cout << "Operation: " << sum(num1, num2) << std::endl;
+    std::cout << "Operation: " << difference(num1, num2) << std::endl;
    
     return 0;
 }
